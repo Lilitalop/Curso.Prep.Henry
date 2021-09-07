@@ -73,7 +73,7 @@ function arrayContiene(array, elemento) {
   // Tu código:
  for (let i = 0; i < array.length; i++) 
 {
-    if array[i] === elemento
+    if (array[i] === elemento)
        return true
 }
 return false; 
@@ -144,7 +144,7 @@ function cuentoElementos(arreglo){
 
   for (var i = 0; i < arreglo.length; i++) 
   {
-    if arreglo[i] > 18
+    if (arreglo[i] > 18)
        cantidad = cantidad + 1;
   }
 return cantidad;
@@ -215,7 +215,7 @@ function mayorACien(array) {
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
   var  j = 0;
-  var  numero[];
+  var  numero = [];
   for (var i =  0; i < array.length; i++) {
     if (array[i] > 100)
     {
